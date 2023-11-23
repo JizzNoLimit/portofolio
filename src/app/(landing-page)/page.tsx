@@ -9,10 +9,10 @@ export default function Home() {
       <div id="#" className="flex items-center w-full h-full min-h-[calc(100vh-94px)]">
         <div className='flex flex-col-reverse lg:flex-row items-center gap-6 w-full h-full max-w-[1180px] mx-auto px-4 lg:px-10 xl:px-0'>
           <div className='lg:flex-[60%] xl:flex-[64%] w-full text-center lg:text-left'>
-            <h3>Hello, <span className="text-tertiary-text dark:text-tertiary-text-dark">Im</span></h3>
+            <h3 className="text-2xl">Hello, <span className="text-tertiary-text dark:text-tertiary-text-dark">Im</span></h3>
             <h1 className='leading-normal uppercase lg:normal-case text-tertiary-text dark:text-tertiary-text-dark'>Muhammad Ajiz Alfarizi</h1>
-            <h4 className='pt-2 lg:pt-1 lg:leading-normal xl:leading-normal'>Fullstack Web Developer</h4>
-            <p className='w-[94%] mx-auto lg:mx-0 lg:w-[70%] xl:w-[64%] lg:text-lg'>A fresh graduate with expertise in web development, enthusiastic about exploring and innovating in the digital world.</p>
+            <h3 className='pt-2 lg:pt-1 lg:leading-normal xl:leading-normal'>Fullstack Web Developer</h3>
+            <p className='pt-1 w-[94%] mx-auto lg:mx-0 lg:w-[70%] xl:w-[64%] lg:text-lg'>A fresh graduate with expertise in web development, enthusiastic about exploring and innovating in the digital world.</p>
           </div>
           <div className='relative lg:flex-[40%] xl:flex-[36%] flex justify-center w-full'>
             <div className="relative w-full h-full flex justify-center z-10">

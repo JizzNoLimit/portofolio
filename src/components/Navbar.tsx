@@ -25,7 +25,7 @@ const Navbar = () => {
                         src={logo} 
                         width={125} 
                         height={30}
-                        className='hidden dark:block w-[70%] lg:w-full' 
+                        className='hidden dark:block w-[80%] lg:w-full' 
                         alt='logo'
                         placeholder='blur'
                         blurDataURL='../assets/jizznolimit-logo.svg'
@@ -35,7 +35,7 @@ const Navbar = () => {
                         src={logo_dark} 
                         width={125} 
                         height={30} 
-                        className='dark:hidden w-[70%] lg:w-full' 
+                        className='dark:hidden w-[80%] lg:w-full' 
                         alt='logo' 
                         placeholder='blur'
                         blurDataURL='../assets/jizznolimit-logo-dark.svg'
