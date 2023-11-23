@@ -15,12 +15,12 @@ export default function Home() {
             <p className='w-[94%] mx-auto lg:mx-0 lg:w-[70%] xl:w-[64%] lg:text-lg'>A fresh graduate with expertise in web development, enthusiastic about exploring and innovating in the digital world.</p>
           </div>
           <div className='relative lg:flex-[40%] xl:flex-[36%] flex justify-center w-full'>
-            <div className="relative flex justify-center z-10">
+            <div className="relative w-full h-full flex justify-center z-10">
               <Image 
                 src={hero} 
                 width={323} 
                 height={464}
-                className="relative w-[84%] lg:w-[98%] xl:h-full xl:scale-110 xl:bottom-6" 
+                className="relative w-[80%] lg:w-[98%] xl:h-full xl:scale-110 xl:bottom-6" 
                 alt="gambar jizznolimit"
               />
             </div>
