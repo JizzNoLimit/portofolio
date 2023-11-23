@@ -73,7 +73,7 @@ const Navbar = () => {
         </nav>
 
         {/* Link list Mobile */}
-        <div className={`fixed lg:hidden ${clickMenu ? 'top-[90px]' : 'top-4'} w-full px-4 transition-all duration-500 z-40`}>
+        <div className={`fixed lg:hidden ${clickMenu ? 'top-[98px]' : 'top-4'} w-full px-4 transition-all duration-500 z-40`}>
                 <div className={`w-full h-auto px-7 ${clickMenu ? 'py-6' : 'py-4 transition-all delay-200'} bg-secondary-bg dark:bg-secondary-bg-dark rounded-xl`}>
                 <ul className='flex justify-between font-semibold'>
                     <li onClick={() => onClickMenu()}><a href="#">Home</a></li>
