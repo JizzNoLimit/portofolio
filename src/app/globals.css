@@ -3,25 +3,48 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  /* Theme light */
+  --primary-bg: #f2f2f2;
+  --secondary-bg: white;
+
+  --primary-text: #4f626c;
+  --secondary-text: #364349;
+  --tertiary-text: #d95066;
+
+  /* Theme dark */
+  --primary-bg-dark: #273036;
+  --secondary-bg-dark: #2d3d44;
+
+  --primary-text-dark: #b3ccd9;
+  --secondary-text-dark: white;
+  --tertiary-text-dark: white;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+html {
+  @apply scroll-smooth
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  @apply bg-primary-bg dark:bg-primary-bg-dark font-open-sans text-primary-text dark:text-primary-text-dark
+}
+
+@layer base {
+  h1 {
+    @apply text-2xl lg:text-5xl xl:text-6xl font-bold leading-relaxed lg:leading-snug xl:leading-snug text-secondary-text dark:text-secondary-text-dark
+  }
+
+  h2 {
+    @apply text-xl lg:text-4xl xl:text-5xl font-bold text-secondary-text dark:text-secondary-text-dark
+  }
+
+  h3 {
+    @apply text-lg lg:text-3xl xl:text-4xl font-bold text-primary-text dark:text-primary-text-dark
+  }
+  h4 {
+    @apply text-base lg:text-2xl xl:text-3xl font-bold text-primary-text dark:text-primary-text-dark
+  }
+
+  p {
+    @apply text-sm lg:text-lg leading-snug lg:leading-normal
+  }
 }
