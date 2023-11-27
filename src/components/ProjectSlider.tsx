@@ -44,7 +44,7 @@ const ProjectSlider = () => {
                     }}
                     className="group"
                 >
-                    <div className="w-full h-[200px] lg:h-[320px]">
+                    <div className="w-full h-[220px] lg:h-[320px]">
                         <div className="absolute inset-x-0 -bottom-[120px] mx-auto w-[264px] h-[264px] lg:w-[364px] lg:h-[364px] bg-[#004365] blur-[80px] rounded-full"></div>
                         <div className="absolute -top-[44px] -right-[35px] lg:-top-[64px] w-[120px] h-[120px] lg:w-[168px] lg:h-[168px] bg-[#f6f8f9] rounded-full "></div>
                         <div className="absolute -bottom-[146px] -left-[80px] lg:-bottom-[186px] lg:-left-[110px] w-[275px] h-[275px] lg:w-[375px] lg:h-[375px] bg-[#f6f8f9] rounded-full "></div>
@@ -67,7 +67,7 @@ const ProjectSlider = () => {
                     }}
                     className="group"
                 >
-                    <div className="w-full h-[200px] lg:h-[320px]">
+                    <div className="w-full h-[220px] lg:h-[320px]">
                         <div className="absolute inset-x-0 -bottom-[120px] mx-auto w-[264px] h-[264px] lg:w-[364px] lg:h-[364px] bg-[#004365] blur-[80px] rounded-full"></div>
                         <div className="absolute -top-[44px] -right-[35px] lg:-top-[64px] w-[120px] h-[120px] lg:w-[168px] lg:h-[168px] bg-[#f6f8f9] rounded-full "></div>
                         <div className="absolute -bottom-[146px] -left-[80px] lg:-bottom-[186px] lg:-left-[110px] w-[275px] h-[275px] lg:w-[375px] lg:h-[375px] bg-[#f6f8f9] rounded-full "></div>
@@ -90,7 +90,7 @@ const ProjectSlider = () => {
                     }}
                     className="group"
                 >
-                    <div className="w-full h-[200px] lg:h-[320px]">
+                    <div className="w-full h-[220px] lg:h-[320px]">
                         <div className="absolute inset-x-0 -bottom-[120px] mx-auto w-[264px] h-[264px] lg:w-[364px] lg:h-[364px] bg-[#004365] blur-[80px] rounded-full"></div>
                         <div className="absolute -top-[44px] -right-[35px] lg:-top-[64px] w-[120px] h-[120px] lg:w-[168px] lg:h-[168px] bg-[#f6f8f9] rounded-full "></div>
                         <div className="absolute -bottom-[146px] -left-[80px] lg:-bottom-[186px] lg:-left-[110px] w-[275px] h-[275px] lg:w-[375px] lg:h-[375px] bg-[#f6f8f9] rounded-full "></div>
@@ -113,7 +113,7 @@ const ProjectSlider = () => {
                     }}
                     className="group"
                 >
-                    <div className="w-full h-[200px] lg:h-[320px]">
+                    <div className="w-full h-[220px] lg:h-[320px]">
                         <div className="absolute inset-x-0 -bottom-[120px] mx-auto w-[264px] h-[264px] lg:w-[364px] lg:h-[364px] bg-[#004365] blur-[80px] rounded-full"></div>
                         <div className="absolute -top-[44px] -right-[35px] lg:-top-[64px] w-[120px] h-[120px] lg:w-[168px] lg:h-[168px] bg-[#f6f8f9] rounded-full "></div>
                         <div className="absolute -bottom-[146px] -left-[80px] lg:-bottom-[186px] lg:-left-[110px] w-[275px] h-[275px] lg:w-[375px] lg:h-[375px] bg-[#f6f8f9] rounded-full "></div>

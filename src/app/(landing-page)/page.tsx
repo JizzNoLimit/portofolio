@@ -7,7 +7,7 @@ export default function Home() {
     <main className="relative">
       {/* Hero */}
       <div id="#" className="flex items-center w-full h-full min-h-[calc(100vh-94px)]">
-        <div className='flex flex-col-reverse lg:flex-row items-center gap-6 w-full h-full max-w-[1180px] mx-auto px-6 lg:px-10 xl:px-0'>
+        <div className='flex flex-col-reverse lg:flex-row items-center gap-10 lg:gap-6 w-full h-full max-w-[1180px] mx-auto px-6 lg:px-10 xl:px-0'>
           <div className='lg:flex-[60%] xl:flex-[64%] w-full text-center lg:text-left'>
             <h3 className="text-xl lg:text-4xl xl:text-5xl">Hello, <span className="text-tertiary-text dark:text-tertiary-text-dark">Im</span></h3>
             <h1 className='leading-normal uppercase lg:normal-case text-tertiary-text dark:text-tertiary-text-dark'>Muhammad Ajiz Alfarizi</h1>
@@ -20,7 +20,7 @@ export default function Home() {
                 src={hero} 
                 width={323} 
                 height={464}
-                className="relative w-[80%] lg:w-[98%] xl:h-full xl:scale-110 xl:bottom-6" 
+                className="relative w-[80%] lg:w-[76%] xl:h-full xl:scale-110 xl:bottom-6" 
                 alt="gambar jizznolimit"
               />
             </div>
@@ -49,7 +49,7 @@ export default function Home() {
       <div id="project" className="relative w-full h-full py-5 lg:py-20">
         <div className="relative w-full h-full max-w-[1180px] mx-auto px-6 lg:px-10 xl:px-0 text-center">
           <h2>Project<span className="text-tertiary-text text-4xl lg:text-6xl">.</span></h2>
-          <p className="mt-2 lg:mt-4 mb-8 lg:mb-12">A Collection Of Projects That Showcase My Skills<br/>And Expertise.</p>
+          <p className="mt-2 lg:mt-4 mb-8 lg:mb-12">A Collection Of Projects That Showcase My Skills<br className="hidden lg:block"/>And Expertise.</p>
           <ProjectSlider />
         </div>
       </div>
